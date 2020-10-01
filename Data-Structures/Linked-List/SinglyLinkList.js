@@ -12,10 +12,12 @@
 // Creates a LinkedList
 var LinkedList = (function () {
   function LinkedList () {
+    var i;
     // Length of linklist and head is null at start
     this.length = 0
     this.head = null
   }
+
 
   // class node (constructor)
   // Creating Node with element's value
@@ -143,6 +145,7 @@ var LinkedList = (function () {
       // Adding the node at specified index
       node.next = currentNode
       previousNode.next = node
+
     }
 
     // Incrementing the length

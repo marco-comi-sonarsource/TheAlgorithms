@@ -1,0 +1,6 @@
+{
+    "sonarlint.connectedMode.project": {
+    "projectKey": "marco-comi-sonarsource_TheAlgorithms",
+    "connectionId": "sc"
+    }
+}

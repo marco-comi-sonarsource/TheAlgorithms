@@ -16,7 +16,6 @@ var LinkedList = (function () {
     // Length of linklist and head is null at start
     this.length = 0
     this.head = null
-    
   }
 
 

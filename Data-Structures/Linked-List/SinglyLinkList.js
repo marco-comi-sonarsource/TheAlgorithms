@@ -3,11 +3,10 @@
 * However, links in a linked list do not have indexes. With
 * a linked list you do not need to predetermine it's size as
 * it grows and shrinks as it is edited. This is an example of
-* a singly linked list.
+* a singly linked list
 */
 
 // Functions - add, remove, indexOf, elementAt, addAt, removeAt, view
-
 
 // class LinkedList and constructor
 // Creates a LinkedList

@@ -7,7 +7,7 @@
 */
 
 // Functions - add, remove, indexOf, elementAt, addAt, removeAt, view
-
+//
 // class LinkedList and constructor
 // Creates a LinkedList
 var LinkedList = (function () {

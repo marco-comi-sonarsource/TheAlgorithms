@@ -5,7 +5,7 @@
 * it grows and shrinks as it is edited. This is an example of
 * a singly linked list
 */
- 
+
 // Functions - add, remove, indexOf, elementAt, addAt, removeAt, view
 //
 // class LinkedList and constructor

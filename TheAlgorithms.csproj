@@ -1,0 +1,169 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProjectGuid>{C80483C8-E713-4586-B0B6-CF3F712A279B}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <NoStandardLibraries>false</NoStandardLibraries>
+    <AssemblyName>ConsoleApplication</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+    <CodeAnalysisRuleSet>.sonarlint\marco-comi-sonarsource_thealgorithmscsharp.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget>x86</PlatformTarget>
+    <CodeAnalysisRuleSet>.sonarlint\marco-comi-sonarsource_thealgorithmscsharp.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget>x86</PlatformTarget>
+    <CodeAnalysisRuleSet>.sonarlint\marco-comi-sonarsource_thealgorithmscsharp.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup>
+    <RootNamespace>TheAlgorithms</RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include=".github\workflows\UpdateDirectory.js" />
+    <Content Include=".gitignore" />
+    <AdditionalFiles Include=".sonarlint\marco-comi-sonarsource_thealgorithms\CSharp\SonarLint.xml" />
+    <Content Include="back-tracking\KnightTour.js" />
+    <Content Include="back-tracking\NQueen.js" />
+    <Content Include="back-tracking\Sudoku.js" />
+    <Content Include="Cache\LFUCache.js" />
+    <Content Include="Cache\LRUCache.js" />
+    <Content Include="Ciphers\CaesarsCipher.js" />
+    <Content Include="Ciphers\KeyFinder.js" />
+    <Content Include="Ciphers\VigenereCipher.js" />
+    <Content Include="Ciphers\XORCipher.js" />
+    <Content Include="Conversions\BinaryToDecimal.js" />
+    <Content Include="Conversions\DecimalToBinary.js" />
+    <Content Include="Conversions\DecimalToHex.js" />
+    <Content Include="Conversions\DecimalToOctal.js" />
+    <Content Include="Conversions\HexToRGB.js" />
+    <Content Include="Conversions\RomanToDecimal.js" />
+    <Content Include="Data-Structures\Array\QuickSelect.js" />
+    <Content Include="Data-Structures\Graph\Graph.js" />
+    <Content Include="Data-Structures\Graph\Graph2.js" />
+    <Content Include="Data-Structures\Heap\MaxHeap.js" />
+    <Content Include="Data-Structures\Heap\MinPriorityQueue.js" />
+    <Content Include="Data-Structures\Linked-List\DoublyLinkedList.js" />
+    <Content Include="Data-Structures\Linked-List\SinglyLinkList.js" />
+    <Content Include="Data-Structures\Queue\Queue.js" />
+    <Content Include="Data-Structures\Queue\QueueUsing2Stacks.js" />
+    <Content Include="Data-Structures\Stack\Stack.js" />
+    <Content Include="Data-Structures\Stack\StackES6.js" />
+    <Content Include="Data-Structures\Tree\BinarySearchTree.js" />
+    <Content Include="Dynamic-Programming\CoinChange.js" />
+    <Content Include="Dynamic-Programming\KadaneAlgo.js" />
+    <Content Include="Dynamic-Programming\LevenshteinDistance.js" />
+    <Content Include="Dynamic-Programming\MaxNonAdjacentSum.js" />
+    <Content Include="Dynamic-Programming\NumberOfSubsetEqualToGivenSum.js" />
+    <Content Include="Dynamic-Programming\SieveOfEratosthenes.js" />
+    <Content Include="Graphs\ConnectedComponents.js" />
+    <Content Include="Graphs\DepthFirstSearchIterative.js" />
+    <Content Include="Graphs\DepthFirstSearchRecursive.js" />
+    <Content Include="Graphs\Dijkstra.js" />
+    <Content Include="Graphs\DijkstraSmallestPath.js" />
+    <Content Include="Graphs\KruskalMST.js" />
+    <Content Include="Graphs\PrimMST.js" />
+    <Content Include="Hashes\SHA1.js" />
+    <Content Include="Hashes\SHA256.js" />
+    <Content Include="Linear-Algebra\src\la_lib.js" />
+    <Content Include="Linear-Algebra\test\test.js" />
+    <Content Include="Maths\Abs.js" />
+    <Content Include="Maths\AverageMean.js" />
+    <Content Include="Maths\Factorial.js" />
+    <Content Include="Maths\Fibonacci.js" />
+    <Content Include="Maths\FindHcf.js" />
+    <Content Include="Maths\FindLcm.js" />
+    <Content Include="Maths\GridGet.js" />
+    <Content Include="Maths\Palindrome.js" />
+    <Content Include="Maths\PascalTriangle.js" />
+    <Content Include="Maths\PiApproximationMonteCarlo.js" />
+    <Content Include="Maths\SieveOfEratosthenes.js" />
+    <Content Include="Recursive\EucledianGCD.js" />
+    <Content Include="Search\BinarySearch.js" />
+    <Content Include="Search\ExponentialSearch.js" />
+    <Content Include="Search\InterpolationSearch.js" />
+    <Content Include="Search\JumpSearch.js" />
+    <Content Include="Search\LinearSearch.js" />
+    <Content Include="Sorts\BogoSort.js" />
+    <Content Include="Sorts\BubbleSort.js" />
+    <Content Include="Sorts\BucketSort.js" />
+    <Content Include="Sorts\CocktailShakerSort.js" />
+    <Content Include="Sorts\CombSort.js" />
+    <Content Include="Sorts\CountingSort.js" />
+    <Content Include="Sorts\CycleSort.js" />
+    <Content Include="Sorts\FlashSort.js" />
+    <Content Include="Sorts\GnomeSort.js" />
+    <Content Include="Sorts\HeapSort.js" />
+    <Content Include="Sorts\HeapSortV2.js" />
+    <Content Include="Sorts\InsertionSort.js" />
+    <Content Include="Sorts\IntroSort.js" />
+    <Content Include="Sorts\MergeSort.js" />
+    <Content Include="Sorts\QuickSort.js" />
+    <Content Include="Sorts\RadixSort.js" />
+    <Content Include="Sorts\SelectionSort.js" />
+    <Content Include="Sorts\ShellSort.js" />
+    <Content Include="Sorts\TopologicalSort.js" />
+    <Content Include="Sorts\WiggleSort.js" />
+    <Content Include="String\CheckAnagram.js" />
+    <Content Include="String\CheckPalindrome.js" />
+    <Content Include="String\PatternMatching.js" />
+    <Content Include="String\ReverseString.js" />
+    <Content Include="String\ReverseWords.js" />
+    <Content Include="TimingFunctions\IntervalTimer.js" />
+    <Content Include="Trees\DepthFirstSearch.js" />
+    <Content Include="Web-Programming\OpenWeatherMaps.js" />
+    <Content Include="Web-Programming\StockPrice.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include=".github\pull_request_template.md" />
+    <None Include=".github\stale.yml" />
+    <None Include=".github\workflows\nodejs.yml" />
+    <None Include=".github\workflows\update_directory_md.yml" />
+    <None Include=".sonarlint\marco-comi-sonarsource_thealgorithmscsharp.ruleset" />
+    <None Include=".vscode\settings.json" />
+    <None Include=".vs\ProjectSettings.json" />
+    <None Include=".vs\slnx.sqlite" />
+    <None Include=".vs\TheAlgorithms\v16\.suo" />
+    <None Include=".vs\VSWorkspaceState.json" />
+    <None Include="CONTRIBUTING.md" />
+    <None Include="DIRECTORY.md" />
+    <None Include="Linear-Algebra\package-lock.json" />
+    <None Include="Linear-Algebra\package.json" />
+    <None Include="Linear-Algebra\README.md" />
+    <None Include="package.json" />
+    <None Include="README.md" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include=".git\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSHARP.Targets" />
+  <ProjectExtensions>
+    <VisualStudio AllowExistingFolder="true" />
+  </ProjectExtensions>
+</Project>

@@ -106,6 +106,7 @@ function DoubleLinkedList () {
       length--
       return current.element
     } else {
+      var a
       return null
     }
   }

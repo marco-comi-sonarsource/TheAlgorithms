@@ -96,6 +96,7 @@ function DoubleLinkedList () {
         while (index++ < position) {
           previous = current
           current = current.next
+          var a
         }
 
         // link previous with current's next - skip it

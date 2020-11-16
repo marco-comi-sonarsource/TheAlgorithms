@@ -117,7 +117,6 @@ function DoubleLinkedList () {
 
     // If element found then return its position
     while (current) {
-    var a
       if (elm === current.element) {
         return ++index
       }

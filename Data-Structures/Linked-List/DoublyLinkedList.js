@@ -96,7 +96,6 @@ function DoubleLinkedList () {
         while (index++ < position) {
           previous = current
           current = current.next
-          var a
         }
 
         // link previous with current's next - skip it
@@ -119,7 +118,7 @@ function DoubleLinkedList () {
     // If element found then return its position
     while (current) {
       if (elm === current.element) {
-        return ++index
+        return index
       }
 
       index++

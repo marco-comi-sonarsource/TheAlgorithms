@@ -114,6 +114,7 @@ function DoubleLinkedList () {
   this.indexOf = function (elm) {
     let current = head
     let index = -1
+    var a
 
     // If element found then return its position
     while (current) {

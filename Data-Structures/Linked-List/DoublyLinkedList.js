@@ -78,6 +78,8 @@ function DoubleLinkedList () {
       let previous = 0
       let index = 0
 
+      var a
+
       // Removing first item
       if (position === 0) {
         head = current.next

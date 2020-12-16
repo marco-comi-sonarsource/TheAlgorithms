@@ -10,6 +10,12 @@ function DoubleLinkedList () {
   let head = null
   let tail = null
 
+	const Formidable = require('formidable');
+	
+	const form = new Formidable(); // Noncompliant, this form is not safe
+	form.uploadDir = ""; // because upload dir is not defined (by default os temp dir: /var/tmp or /tmp)
+	form.keepExtensions = true; // and file extensions are kept
+
 
   // Add new element
   this.append = function (element) {

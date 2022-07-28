@@ -41,7 +41,6 @@ function mergeSort (list) {
   return merge(mergeSort(subList1), mergeSort(subList2))
 }
 
-
 // Merge Sort Example
 var unsortedArray = [10, 5, 3, 8, 2, 6, 4, 7, 9, 1]
 var sortedArray = mergeSort(unsortedArray)

@@ -1,4 +1,7 @@
 
+## Archives
+  * [extract](https://github.com/TheAlgorithms/Javascript/blob/master/Archives/extract.js)
+
 ## back-tracking
   * [KnightTour](https://github.com/TheAlgorithms/Javascript/blob/master/back-tracking/KnightTour.js)
   * [NQueen](https://github.com/TheAlgorithms/Javascript/blob/master/back-tracking/NQueen.js)

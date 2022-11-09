@@ -1,0 +1,5 @@
+__proto__:
+    vuln1: 1
+constructor:
+    prototype:
+        vuln2: 2

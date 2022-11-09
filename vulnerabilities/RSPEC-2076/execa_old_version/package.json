@@ -1,0 +1,19 @@
+{
+  "name": "express-execa.js",
+  "version": "0.0.1",
+  "scripts": {
+    "format": "prettier --write \"./**/*.{js,jsx}\"",
+    "start": "node app.js"
+  },
+  "description": "express.js - execa old versions",
+  "private": true,
+  "dependencies": {
+    "execa": "^1.0.0",
+    "express": "^4.17.1"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "prettier": "2.1.2",
+    "node-fetch": "^2.6.1"
+  }
+}

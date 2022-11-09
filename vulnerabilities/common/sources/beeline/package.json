@@ -1,0 +1,10 @@
+{
+  "name": "beeline-app",
+  "version": "0.0.1",
+  "description": "beeline-app",
+  "private": true,
+  "dependencies": {
+    "beeline": "^0.2.4"
+  },
+  "license": "MIT"
+}

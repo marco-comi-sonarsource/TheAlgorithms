@@ -131,6 +131,96 @@
 ## Trees
   * [DepthFirstSearch](https://github.com/TheAlgorithms/Javascript/blob/master/Trees/DepthFirstSearch.js)
 
+## vulnerabilities
+  * common
+    * sources
+      * beeline
+        * [sources](https://github.com/TheAlgorithms/Javascript/blob/master/vulnerabilities/common/sources/beeline/sources.js)
+      * express.js
+        * [app](https://github.com/TheAlgorithms/Javascript/blob/master/vulnerabilities/common/sources/express.js/app.js)
+        * [body-parser](https://github.com/TheAlgorithms/Javascript/blob/master/vulnerabilities/common/sources/express.js/body-parser.js)
+        * [request](https://github.com/TheAlgorithms/Javascript/blob/master/vulnerabilities/common/sources/express.js/request.js)
+        * [router](https://github.com/TheAlgorithms/Javascript/blob/master/vulnerabilities/common/sources/express.js/router.js)
+        * [webpack-dev-server](https://github.com/TheAlgorithms/Javascript/blob/master/vulnerabilities/common/sources/express.js/webpack-dev-server.js)
+      * node.js
+        * http
+          * [client](https://github.com/TheAlgorithms/Javascript/blob/master/vulnerabilities/common/sources/node.js/http/client.js)
+          * [server](https://github.com/TheAlgorithms/Javascript/blob/master/vulnerabilities/common/sources/node.js/http/server.js)
+        * https
+          * [server](https://github.com/TheAlgorithms/Javascript/blob/master/vulnerabilities/common/sources/node.js/https/server.js)
+        * net
+          * [client](https://github.com/TheAlgorithms/Javascript/blob/master/vulnerabilities/common/sources/node.js/net/client.js)
+          * [server](https://github.com/TheAlgorithms/Javascript/blob/master/vulnerabilities/common/sources/node.js/net/server.js)
+        * tls
+          * [client](https://github.com/TheAlgorithms/Javascript/blob/master/vulnerabilities/common/sources/node.js/tls/client.js)
+          * [server](https://github.com/TheAlgorithms/Javascript/blob/master/vulnerabilities/common/sources/node.js/tls/server.js)
+  * RSPEC-2076
+    * execa old_version
+      * [app](https://github.com/TheAlgorithms/Javascript/blob/master/vulnerabilities/RSPEC-2076/execa_old_version/app.js)
+      * [noncompliant](https://github.com/TheAlgorithms/Javascript/blob/master/vulnerabilities/RSPEC-2076/execa_old_version/noncompliant.js)
+  * RSPEC-2598
+    * [formidable](https://github.com/TheAlgorithms/Javascript/blob/master/vulnerabilities/RSPEC-2598/formidable.js)
+    * [multer](https://github.com/TheAlgorithms/Javascript/blob/master/vulnerabilities/RSPEC-2598/multer.js)
+  * RSPEC-2658
+    * [server](https://github.com/TheAlgorithms/Javascript/blob/master/vulnerabilities/RSPEC-2658/server.js)
+  * RSPEC-2755
+    * [nodeexpat](https://github.com/TheAlgorithms/Javascript/blob/master/vulnerabilities/RSPEC-2755/nodeexpat.js)
+    * [test](https://github.com/TheAlgorithms/Javascript/blob/master/vulnerabilities/RSPEC-2755/test.js)
+  * RSPEC-2819
+    * [windows1](https://github.com/TheAlgorithms/Javascript/blob/master/vulnerabilities/RSPEC-2819/windows1.js)
+    * [windows2](https://github.com/TheAlgorithms/Javascript/blob/master/vulnerabilities/RSPEC-2819/windows2.js)
+    * [windows3](https://github.com/TheAlgorithms/Javascript/blob/master/vulnerabilities/RSPEC-2819/windows3.js)
+  * RSPEC-4423
+    * [https](https://github.com/TheAlgorithms/Javascript/blob/master/vulnerabilities/RSPEC-4423/https.js)
+    * [request](https://github.com/TheAlgorithms/Javascript/blob/master/vulnerabilities/RSPEC-4423/request.js)
+    * [tls](https://github.com/TheAlgorithms/Javascript/blob/master/vulnerabilities/RSPEC-4423/tls.js)
+  * RSPEC-4426
+    * [crypto](https://github.com/TheAlgorithms/Javascript/blob/master/vulnerabilities/RSPEC-4426/crypto.js)
+  * RSPEC-4830
+    * [https](https://github.com/TheAlgorithms/Javascript/blob/master/vulnerabilities/RSPEC-4830/https.js)
+    * [request](https://github.com/TheAlgorithms/Javascript/blob/master/vulnerabilities/RSPEC-4830/request.js)
+    * [tls](https://github.com/TheAlgorithms/Javascript/blob/master/vulnerabilities/RSPEC-4830/tls.js)
+  * RSPEC-5146
+    * [httpResponse](https://github.com/TheAlgorithms/Javascript/blob/master/vulnerabilities/RSPEC-5146/httpResponse.js)
+    * [httpResponseRefresh](https://github.com/TheAlgorithms/Javascript/blob/master/vulnerabilities/RSPEC-5146/httpResponseRefresh.js)
+    * [httpresponseSetHeader](https://github.com/TheAlgorithms/Javascript/blob/master/vulnerabilities/RSPEC-5146/httpresponseSetHeader.js)
+    * [httpresponseSetHeaderRefresh](https://github.com/TheAlgorithms/Javascript/blob/master/vulnerabilities/RSPEC-5146/httpresponseSetHeaderRefresh.js)
+    * [httpsResponse](https://github.com/TheAlgorithms/Javascript/blob/master/vulnerabilities/RSPEC-5146/httpsResponse.js)
+  * RSPEC-5147
+    * app
+      * src
+        * [db](https://github.com/TheAlgorithms/Javascript/blob/master/vulnerabilities/RSPEC-5147/app/src/db.js)
+        * [mongodb](https://github.com/TheAlgorithms/Javascript/blob/master/vulnerabilities/RSPEC-5147/app/src/mongodb.js)
+        * [mongoose](https://github.com/TheAlgorithms/Javascript/blob/master/vulnerabilities/RSPEC-5147/app/src/mongoose.js)
+        * [server](https://github.com/TheAlgorithms/Javascript/blob/master/vulnerabilities/RSPEC-5147/app/src/server.js)
+  * RSPEC-5527
+    * [https](https://github.com/TheAlgorithms/Javascript/blob/master/vulnerabilities/RSPEC-5527/https.js)
+    * [request](https://github.com/TheAlgorithms/Javascript/blob/master/vulnerabilities/RSPEC-5527/request.js)
+    * [tls](https://github.com/TheAlgorithms/Javascript/blob/master/vulnerabilities/RSPEC-5527/tls.js)
+  * RSPEC-5542
+    * [crypto](https://github.com/TheAlgorithms/Javascript/blob/master/vulnerabilities/RSPEC-5542/crypto.js)
+  * RSPEC-5547
+    * [crypto](https://github.com/TheAlgorithms/Javascript/blob/master/vulnerabilities/RSPEC-5547/crypto.js)
+  * RSPEC-5659
+    * [feedback20012021](https://github.com/TheAlgorithms/Javascript/blob/master/vulnerabilities/RSPEC-5659/feedback20012021.js)
+    * [test](https://github.com/TheAlgorithms/Javascript/blob/master/vulnerabilities/RSPEC-5659/test.js)
+  * RSPEC-5876
+    * db
+      * [index](https://github.com/TheAlgorithms/Javascript/blob/master/vulnerabilities/RSPEC-5876/db/index.js)
+      * [users](https://github.com/TheAlgorithms/Javascript/blob/master/vulnerabilities/RSPEC-5876/db/users.js)
+    * [server](https://github.com/TheAlgorithms/Javascript/blob/master/vulnerabilities/RSPEC-5876/server.js)
+  * RSPEC-6109
+    * sources
+      * express.js
+        * [app](https://github.com/TheAlgorithms/Javascript/blob/master/vulnerabilities/RSPEC-6109/sources/express.js/app.js)
+      * js-yaml
+        * [test](https://github.com/TheAlgorithms/Javascript/blob/master/vulnerabilities/RSPEC-6109/sources/js-yaml/test.js)
+      * json
+        * [test](https://github.com/TheAlgorithms/Javascript/blob/master/vulnerabilities/RSPEC-6109/sources/json/test.js)
+      * [merge](https://github.com/TheAlgorithms/Javascript/blob/master/vulnerabilities/RSPEC-6109/sources/merge.js)
+      * yaml
+        * [test](https://github.com/TheAlgorithms/Javascript/blob/master/vulnerabilities/RSPEC-6109/sources/yaml/test.js)
+
 ## Web-Programming
   * [OpenWeatherMaps](https://github.com/TheAlgorithms/Javascript/blob/master/Web-Programming/OpenWeatherMaps.js)
   * [StockPrice](https://github.com/TheAlgorithms/Javascript/blob/master/Web-Programming/StockPrice.js)

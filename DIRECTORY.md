@@ -209,6 +209,8 @@
       * [index](https://github.com/TheAlgorithms/Javascript/blob/master/vulnerabilities/RSPEC-5876/db/index.js)
       * [users](https://github.com/TheAlgorithms/Javascript/blob/master/vulnerabilities/RSPEC-5876/db/users.js)
     * [server](https://github.com/TheAlgorithms/Javascript/blob/master/vulnerabilities/RSPEC-5876/server.js)
+  * RSPEC-5883
+    * [oscommand](https://github.com/TheAlgorithms/Javascript/blob/master/vulnerabilities/RSPEC-5883/oscommand.js)
   * RSPEC-6109
     * sources
       * express.js
